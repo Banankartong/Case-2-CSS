@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="sv">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Inbjudan</title>
+    <link rel="shortcut icon" href="images/favicon.jpg" type="image/x-icon">
+</head>
+
+<body>
+
+    <header>
+        <img src="images/blue.jpg" width="400" height="25" alt="Blå header rand">
+    </header>
+
+    <nav>
+        <a href="index.html">Om mig</a> |
+        <a href="city.html">Min stad</a> |
+        <a href="event.html">Inbjudan</a> |
+        <a href="gallery.html">Galleri</a> |
+    </nav>
+
+    <main>
+
+        <figure>
+        <img src="images/ballonger.jpg" width="400" alt="ballonger">
+        <figcaption>ballonger</figcaption>
+        </figure>
+
+        <h1>Inbjudan till min födelsedagsfest!</h1>
+
+        <p>Hej! Jag fyller år och vill att du ska komma på min fest!</p>
+
+        <p>Fyll gärna i detta formulär så snart som möjligt!</p>
+        <br>
+
+        <form action="" method="get">
+
+            <label>För och efternamn: <br><input type="text" name="fullname"></label>
+            <br><br>
+            <label>E-post: <br><input type="email" name="email"></label>
+            <br><br>
+
+            <P>
+                Tar du med en +1?
+            </P>
+
+            <fieldset>
+                <legend>Plus 1?</legend>
+                <label><input type="radio" name="color_signal" value="yes">Ja</label>
+                <label><input type="radio" name="color_signal" value="no">Nej</label>
+                <label><input type="radio" name="color_signal" value="maybe">Kanske</label>
+            </fieldset>
+
+            <br><br>
+
+            <div>
+                <label for="date">Välj vilken dag som passar bäst</label>
+            </div>
+
+            <div>
+                <select name="date" id="date" multiple size="5">
+                    <option value="">--Datum--</option>
+                    <option value="19/5">Lördag 19 maj</option>
+                    <option value="20/5">Söndag 20 maj</option>
+                    <option value="26/5">Lördag 26 maj</option>
+                    <option value="27/5">Söndag 27 maj</option>
+                </select>
+            </div>
+            <br>
+
+            <label for="food">Jag tänkte köra knyt. Skriv gärna vad du tänkte ta med dig</label>
+            <br>
+            <textarea name="food" id="food" cols="30" rows="7"></textarea>
+            <br><br>
+            <p>Det var allt! Tryck på skicka in så hör jag av mig senare med mer info!</p>
+            <button type="submit">Skicka in</button>
+
+        </form>
+
+        <br><br>
+        
+        <aside>
+            <p>Festen kommer vara i Uppsala. Läs mer om Uppsala under fliken <a href="city.html">Min stad</a></p>
+
+            <p>Se bilder på Uppsala under fliken <a href="gallery.html">Galleri</a></p>
+        </aside>
+
+    </main>
+
+    <br>
+    <hr>
+    <br>
+    <footer>
+        Github: <a href="https://github.com/Banankartong" rel="noopener" target="_blank" >Banankartong</a>
+    </footer>
+
+</body>
+
+</html>
