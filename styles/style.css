@@ -1,0 +1,22 @@
+
+        nav {
+            display: flex;
+            flex-direction: row;
+        }
+
+nav#top-menu ul {
+    margin: 0;
+    padding: .5rem;
+    list-style: none;
+    display: flex;
+}
+
+nav#top-menu ul li {
+
+    position: relative;
+}
+
+nav#top-menu {
+    background-color: lightblue;
+}
+
